@@ -14,6 +14,7 @@
 	Cookie ck[] = request.getCookies();
 	if(ck!=null){
 		int i=-1;
+		
 		for (Cookie c:ck) {
 			i++;
 			if(c.getName().equals("user"))
